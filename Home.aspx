@@ -11,7 +11,11 @@
     <form id="form1" runat="server">
     <div>
     <h1>Home Page </h1>
+        <p>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/About.aspx">About</asp:HyperLink>
+        </p>
     </div>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Contact.aspx">Contact</asp:HyperLink>
     </form>
 </body>
 </html>
